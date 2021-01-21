@@ -1,0 +1,99 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7cf9f6f6"
+    tools:context="layout.UserFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/gv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btADDUSER"
+                        android:background="@raw/bb"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1.0"
+                        android:textColor="#FFFF"
+                        android:textSize="20sp"
+                        android:textStyle="italic"
+                        android:text="Add User"
+                    />
+
+                    <Button
+                        android:id="@+id/btUSERLIST"
+                        android:background="@raw/bb"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1.0"
+                        android:textColor="#FFFF"
+                        android:textSize="20sp"
+                        android:textStyle="italic"
+                        android:text="User List"
+                    />
+
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/rlSTL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/gv">
+
+                <ListView
+                    android:id="@+id/gvFUserList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:dividerHeight="10sp"
+                    android:divider="#00ffffff"
+                    >
+
+                </ListView>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gv"
+                android:id="@+id/rlTL"
+                android:visibility="gone"
+                >
+                <include
+                    android:id="@+id/inTL"
+                    layout="@layout/adduserfrom"
+                    />
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBarUser"
+                style="@android:style/Widget.Holo.Light.ProgressBar.Inverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone"
+                android:layout_centerVertical="true" />
+
+        </RelativeLayout>
+
+
+
+</FrameLayout>

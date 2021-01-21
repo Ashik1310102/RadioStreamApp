@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+
+
+   >
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/border_table"
+            android:soundEffectsEnabled="false">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text="TARGET\nDESCRIPTION"
+                    android:textAlignment="textEnd"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text="FINAL\nTARGET"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text="ACHIVED\nTARGET"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:paddingRight="5dp"
+                    android:text="PENDING\nTARGET"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MPTQ"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text="month\nproduction target Qty"
+                    android:textAlignment="textEnd"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/MFTV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/MATV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/MPTV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:paddingRight="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text="Total Production\nOperation"
+                    android:textAlignment="textEnd"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TPODFTV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TPODATV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TPODPTV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:paddingRight="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text="Per Day\nAvarage production"
+                    android:textAlignment="textEnd"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/PDAPFTV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/PDAPATV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/PDAPPTV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:paddingRight="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text="Total Monthly\nProduction\nPower Declare Units"
+                    android:textAlignment="textEnd"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TMPDUFTV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n\n"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TMPDUATV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n\n"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TMPDUPTV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:paddingRight="5dp"
+                    android:text=" \n\n"
+                    android:textSize="14dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text="Per ton\npower Declare"
+                    android:textAlignment="textEnd"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/PTPDFTV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/PTPDATV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/PTPDPTV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text="TAP TO TAP\nTIME DECLARE"
+                    android:textAlignment="textEnd"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TTTTDFTV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TTTTDATV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TTTTDPTV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text="Per day Average\nHEATS NO"
+                    android:textAlignment="textEnd"
+                    android:textSize="14dp"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/PDAHNFTV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/PDAHNATV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/PDAHNPTV"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:background="@drawable/border_table"
+                    android:padding="5dp"
+                    android:text=" \n"
+                    android:textSize="14dp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+
+
+</LinearLayout>

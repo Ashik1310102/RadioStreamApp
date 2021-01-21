@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_form"
+    android:layout_margin="15dp"
+    android:gravity="center"
+    >
+
+
+
+    <TextView
+        android:id="@+id/tvUDH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USER DETAILS"
+        android:textStyle="bold"
+        android:textColor="#83f5f5f5"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border_form2"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/tvUI"
+        android:text="Login User Id     : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvUDH"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:padding="7dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/tvUIV"
+        android:text="abc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvUDH"
+        android:layout_toRightOf="@+id/tvUI"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:padding="7dp"
+        android:layout_marginLeft="20dp"
+        />
+    <View
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#62050500"
+        android:layout_below="@id/tvUIV">
+
+    </View>
+    <TextView
+        android:id="@+id/tvN"
+        android:text="Name                  : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:padding="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/tvNV"
+        android:text="abc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a"
+        android:layout_toRightOf="@id/tvN"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        />
+    <View
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#62050500"
+        android:layout_below="@id/tvNV">
+
+    </View>
+    <TextView
+        android:id="@+id/tvAL"
+        android:text="Access Level     : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b"
+        android:textStyle="bold|italic"
+        android:padding="7dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/tvALV"
+        android:text="abc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b"
+        android:layout_toRightOf="@id/tvAL"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+
+        />
+
+
+</RelativeLayout>

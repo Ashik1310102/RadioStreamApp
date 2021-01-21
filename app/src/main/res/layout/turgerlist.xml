@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="@drawable/border_form">
+
+    <TextView
+        android:id="@+id/tvTDH"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TARGET DETAILS"
+        android:textStyle="bold"
+        android:textColor="#89ffffff"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/border_form2"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/tvMAY"
+        android:text="Montg And Year    : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTDH"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:id="@+id/tvMAYV"
+        android:text="abc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTDH"
+        android:layout_toRightOf="@+id/tvMAY"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"/>
+    <View
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#62050500"
+        android:layout_below="@id/tvMAYV">
+
+    </View>
+    <TextView
+        android:id="@+id/tvTT"
+        android:text="Target Ton             : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:id="@+id/tvTTV"
+        android:text="abc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a"
+        android:layout_toRightOf="@id/tvMAY"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"/>
+
+    <View
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#62050500"
+        android:layout_below="@id/tvTTV">
+
+    </View>
+
+    <TextView
+        android:id="@+id/tvTU"
+        android:text="Target Unit            : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:id="@+id/tvTUV"
+        android:text="abc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b"
+        android:layout_toRightOf="@id/tvTT"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"
+        />
+</RelativeLayout>

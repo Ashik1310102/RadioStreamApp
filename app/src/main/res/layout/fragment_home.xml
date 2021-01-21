@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.HomeFragment"
+    android:background="#7cf9f6f6">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <ScrollView
+        android:id="@+id/svV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <include
+                android:id="@+id/tableinfo"
+                layout="@layout/table"/>
+            <Button
+                android:id="@+id/btSubmissionforn"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:background="@raw/bb"
+                android:textColor="#FFFF"
+                android:textStyle="italic"
+                android:text=" FROM "
+                android:textSize="20sp"
+                android:padding="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/tableinfo"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone"/>
+            <RelativeLayout
+                android:id="@+id/rlBCPF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_below="@+id/btSubmissionforn"
+                android:visibility="gone">
+
+                <include
+                    android:id="@+id/frombcp"
+                    layout="@layout/submissionn_form_fo_bcp"
+
+                    />
+
+
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBarHome"
+                style="@android:style/Widget.Holo.Light.ProgressBar.Inverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/btSubmissionforn"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="46dp" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

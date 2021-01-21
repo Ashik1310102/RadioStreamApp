@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/border_form"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD A NEW USERS"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:paddingTop="5dp"
+        android:background="@drawable/border_form2"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginBottom="30dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Login ID"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="-10dp"
+        android:layout_marginLeft="15dp"
+        />
+    <EditText
+        android:id="@+id/auULI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:layout_marginRight="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="-10dp"
+        android:layout_marginLeft="15dp"/>
+    <EditText
+        android:id="@+id/auUN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set The Password"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="-10dp"
+        android:layout_marginLeft="15dp"
+        />
+    <EditText
+        android:id="@+id/auSTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Access Level"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"/>
+    <RadioGroup
+        android:id="@+id/auAL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dragan"
+            android:id="@+id/Dragan"
+            android:textSize="20sp"
+            android:layout_marginRight="25dp"
+            android:checked="true"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senior Management"
+            android:id="@+id/SeniorManagement"
+            android:layout_marginRight="25dp"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Production Incharge"
+            android:id="@+id/ProductionIncharge"
+            android:textSize="20sp"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/auSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:background="@drawable/border_form2"
+        android:layout_marginBottom="15dp"
+        />
+
+
+
+</LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BCP</string>
+    <string name="title_activity_main2">BCP</string>
+    <string name="action_settings">Logout</string>
+    <string name="fcmKey">com.example.ashik.bpc.fcmKey</string>
+    <string name="fcmPre">com.example.ashik.bpc.fcmPre</string>
+</resources>
